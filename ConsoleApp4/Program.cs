@@ -35,7 +35,7 @@ else
 // db.Companies.Add(company1);
 // db.Companies.Add(company2);
 // db.SaveChanges();
-// db.Database.Migrate();
+db.Database.Migrate();
 
 /*var userUpdate = db.Users.Where(u => u.Name == "Jack").ToList();
 
