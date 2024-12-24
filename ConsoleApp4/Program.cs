@@ -54,7 +54,7 @@ var users = db.Users.Include(p => p.Company);
 
 var users = db.Users.Where(p => p.Company!.Name == "Microsoft");*/
 
-//var users1 = db.Users.Where(p => p.Id < 10).ToList();
+var users1 = db.Users.Where(p => p.Id < 10).ToList();
 
 var users = db.Users.Select(u => new
 {
