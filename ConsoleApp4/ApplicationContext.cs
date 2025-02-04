@@ -1,6 +1,8 @@
 ﻿using System.Reflection;
+using ConsoleApp4.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+
 
 
 namespace ConsoleApp4;
